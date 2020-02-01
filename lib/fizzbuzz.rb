@@ -7,7 +7,9 @@ class Fizzbuzz
     elsif number % 5 == 0
       'buzz'
       elsif number.to_s.include? '7' # add comment.
-      'Github'      
+      'Github'
+      elsif number.to_s.include? '9' # add 9 
+      'nine is nice'      
     else
       number
     end
